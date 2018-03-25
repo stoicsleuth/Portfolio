@@ -829,3 +829,9 @@ display: flex;
             transform: rotateY(0deg) scale(1);
     }
 }
+
+@media (max-device-aspect-ratio: 16/9){
+    header{
+        height: calc(100vw * 1.778 - 9%);
+    }
+}
