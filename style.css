@@ -718,7 +718,7 @@ display: flex;
     padding: 0px;
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     }
     nav {
         background: #ee0979;
