@@ -436,7 +436,7 @@ font-family: 'Raleway';
 }
 
 .project-card p{
-        padding-left: 0px 40px;
+        padding: 0px 40px;
     font-family: 'Raleway';
 }
 
@@ -622,6 +622,7 @@ display: flex;
 }
 
 .footer-desc{
+    height: 24px;
     font-family: 'Raleway';
     font-size: 0.8em;
     text-align: center;
@@ -765,7 +766,7 @@ display: flex;
     }
     #toggle + #toggle-btn,
     .nav-icon {
-    position: fixed;
+    position: absolute;
     top: 35px;
     right: 35px;
     border-radius: 3px;
