@@ -112,14 +112,20 @@ margin-top: 0px;
 }
 .button-round a{
     text-decoration: none;
-font-family: "Raleway";
-padding: 11px 25px;
-background-color: #f50a57;
-color: white;
-font-size: 1.5rem;
-border-radius: 55px;
-cursor: pointer;
-     transition: all .35s;
+    font-family: "Raleway";
+    padding: 11px 25px;
+    /* background-color: #f50a57; */
+    color: #ff3030;
+    font-size: 1.5rem;
+    border-radius: 55px;
+    cursor: pointer;
+    border: 2px solid #f50a58;
+    transition: all .35s;
+}
+
+.button-round a:hover{
+    border-width:0px;
+    background-color: #f50a57;
 }
 
 .button-round a:hover{
