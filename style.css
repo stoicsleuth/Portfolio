@@ -124,6 +124,7 @@ margin-top: 0px;
 }
 
 .button-round a:hover{
+	color: white;
     border-width:0px;
     background-color: #f50a57;
 }
