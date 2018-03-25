@@ -828,6 +828,12 @@ display: flex;
     -webkit-transform: rotateY(0deg) scale(1);
             transform: rotateY(0deg) scale(1);
     }
+    .project-card h1, .project-card p, .more-projects{
+        padding-left: 30px;
+    }
+    .project-card .tech{
+        margin-left: 30px;
+    }
 }
 
 @media (max-device-aspect-ratio: 16/9){
