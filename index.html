@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="hover.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
     <script src="js/smooth-scroll.js"></script>
     <script>
         const scroll = new SmoothScroll('a[href*="#"]');
@@ -36,6 +41,20 @@
            </li>
        </ul>
    </div>
+   <!-- Navifation menu for small screens -->
+    <header>
+        <input type="checkbox" id="toggle"/>
+        <label for="toggle" id="toggle-btn"></label>  
+        <div class="nav-icon"></div>
+        <nav data-state="close">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a class="footerJump" data-scroll href="#footer">Contact</a></li>
+        </ul>
+        </nav>
+    </header>  
    <div class="hero-text">
        <h3>Hi.</h3>
         <h4>I’m a web developer and designer from Kolkata, India.</h4>
@@ -175,7 +194,7 @@
             </form>
         </div>
 
-        <div class="footer">
+        <div class="footer" id="footer">
             <div class="info">
                 <h1 class="email-text">tarashanr321@gmail.com</h1>
                 <div class="link">
@@ -219,6 +238,7 @@
     
 </body>
     <script src="./particles.js"></script>
+    <script src="js/app.js"></script>
     <script>
     
         
